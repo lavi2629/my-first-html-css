@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.light-primary-colour {
+  background-color: #0077cc;
+}
+
+/* Header Styles */
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Form */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive Flex Example (optional extra) */
+section {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+/* This selects the second column of table with class .second-blue-col*/
+.second-blue-col-table tbody td:nth-child(2) {
+  color: blue;
+}
+
+section.top-level {
+  border-color: burlywood;
+  border-width: 2px;
+  border-style: solid;
+}

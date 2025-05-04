@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn HTML & CSS</title>
+  <link rel="stylesheet" href="/styles/styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to Shalvi's HTML & CSS Demo</h1>
+    <nav>
+      <ul>
+        <li><a href="#text">Text</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#table">Table</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="text" class="top-level">
+      <h2>Text Elements</h2>
+      <p class="blue-text-body">This is a <strong>strong</strong> word and this is <em>emphasized</em>.</p>
+      <p>Here's a <a href="/page2">Second Page</a>.</p>
+    </section>
+
+    <section id="image" class="top-level">
+      <img src="/assets/shalvi.jpg" />
+    </section>
+
+    <section id="forms" class="top-level">
+      <h2>Form Elements</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+        <br />
+        <label for="message">Message:</label><br />
+        <textarea id="message"></textarea><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <section id="lists" class="top-level">
+      <h2>Lists</h2>
+      <h3>Unordered List</h3>
+      <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+      </ul>
+      <h3>Ordered List</h3>
+      <ol>
+        <li>First</li>
+        <li>Second</li>
+      </ol>
+    </section>
+
+    <section id="table">
+      <h2>Table</h2>
+      <table id="age-table" class="second-blue-col-table top-level">
+        <colgroup>
+          <col>
+          <col class="blue-text-body">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alice</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Bob</td>
+            <td>25</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div>
+        <div>
+          <div>
+            <p> This is a new para</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My HTML Demo</p>
+  </footer>
+</body>
+
+</html>
