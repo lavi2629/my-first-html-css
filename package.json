@@ -1,0 +1,23 @@
+{
+  "name": "my-first-html-css",
+  "version": "1.0.0",
+  "description": "a sample html css test app for learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./public -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavi2629/my-first-html-css.git"
+  },
+  "author": "Shalvi Sharma <shalvisharma26@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lavi2629/my-first-html-css/issues"
+  },
+  "homepage": "https://github.com/lavi2629/my-first-html-css#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
